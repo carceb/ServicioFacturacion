@@ -35,7 +35,7 @@ namespace ServicioFacturacion
             //REALIZA EL PROCESO SEGUN EL INTERVALO INDICADO EN LA BASE DE DATOS
             string resultadoImpresion;
             resultadoImpresion = Imprimir.ImprimirCola();
-            //********************************************************
+            //**********************************************************
 
             //ESCRIBE LOS SUCESOS DE CADA PROCESO EN EL LOG
             Library.WriteErrorLog("Servicio de facturación BETA 1 iniciado y en ejecución. " + resultadoImpresion);
