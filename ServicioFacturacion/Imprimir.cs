@@ -24,7 +24,6 @@ namespace ServicioFacturacion
             string producto = "";
             string precio = "";
             string cantidad = "";
-
             resultado = "";
             try
             {
